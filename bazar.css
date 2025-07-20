@@ -1,0 +1,374 @@
+.tovarinfoall{
+    display: none;
+    flex-direction: row;
+    align-self: center;
+}
+.vidguk{
+    display: flex;
+    flex-direction: column;
+    background-color: #252525;
+    border: 2px solid white;
+    border-radius:30px;
+    transition: all 1.5s;
+    margin:40px;
+    min-width:550px;
+    min-height:150px;
+    padding:20px;
+    font-size: 30px;
+
+}
+.vidguk:hover{
+    transform:scale(1.1);
+}
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: sans-serif;
+    background: #000000;
+    color:aliceblue;
+}
+.usrow{
+    display:flex;
+    flex-direction: row;
+}
+.vidguksall{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.addreitng {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    align-items: flex-end; 
+}
+.reitingitem{
+    margin:8px;
+    display: flex;
+    flex-direction: column;
+    padding:5px;
+    box-sizing: border-box;
+}
+.reitingitem h2{
+    padding:10px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.historysale1{
+    display: none;
+    background: #1f1f1f;
+    margin-left:200px;
+    margin-right:200px;
+}
+.reting1, 
+.ocinkytovaru1{
+    background:rgb(1, 160, 1);
+    font-size:40px;
+
+    padding: 10px;
+
+    margin-right:20px;
+
+}
+.ocinkytovaru2{
+    background:rgb(201, 197, 0);
+    font-size:40px;
+
+    padding: 10px;
+    margin-right:20px;
+}
+.ocinkytovaru3{
+    background:rgb(201, 0, 0);
+    font-size:40px;
+
+    padding: 10px;
+    margin-right:20px;
+}
+@keyframes ymovetext {
+    0%{
+        opacity:(0);
+        transform: translateY(250px);
+    }
+    100%{
+        opacity:(1);
+        transform: translateY(0px);
+    }
+}
+.myprofil h1{
+    animation: ymovetext 1.6s ease-out
+}
+.myprofil h2{
+    color: #999999;
+    animation: ymovetext 2s ease-out
+}
+.myprofil h3{
+    color: #727272;
+    animation: ymovetext 2.8s ease-out
+}
+.myprofil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.myprofil .poslygitovaru{
+    animation-delay: 2.4s ;
+    animation: ymovetext 2.2s ease-out
+}
+.myprofil
+.avatar2{
+    width:100px;
+    height:100px;
+    border-radius: 50px;
+    margin:10px
+}
+.profil{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.username1{
+    color:aliceblue;
+    font-size:40px;
+    margin:10px;
+    text-align: center;
+}
+.infostash{
+    font-size:32px;
+    display: flex;
+    flex-direction: column;
+    margin:20px;
+}
+.infostash p {margin: 0%;}
+.profiltovars{
+    display: flex;
+    flex-direction: row;
+}
+.uscolumn{
+    display: flex;
+    flex-direction: column;
+}
+.nameprofil{    
+    font-size:70px;
+    text-align: center;
+}
+.infouser{
+    border:1px solid white;
+    font-size:30px;
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+}
+.img1{
+    width:40px;
+    height:40px;
+}
+.img2{
+    width:40px;
+    height:40px;
+    border-radius: 20px;
+}
+.img3{
+    width:440px;
+    height:440px;
+}
+.img4{
+    width:340px;
+    height:340px;
+    border-radius: 170px;
+}
+.searchinp {
+  opacity: 0;
+  width: 0px;
+  height: 0px;
+  background: none;
+
+  margin-top: 5px;
+  font-size: 30px;
+  border: none;
+  transition: all 0.7s ease;
+}
+
+.searchinp.show {
+  opacity: 1;
+  width: 280px;
+  height: 35px;
+}
+
+
+.thistovar{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+
+    font-size:30px;
+}
+.opystovaru p{
+     font-size:20px;
+}
+.opystovaru {
+    border:1px solid white;
+}
+.poslygitovaru{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    color:aliceblue;
+    font-size:25px;
+}
+.pokupkabut,
+.korzinabut,
+.chatuserbut,
+.nazad,
+.historysaleuser,
+.vidgukuser     {
+    border-radius: 15px;
+    margin: 15px;
+    padding: 10px;
+    display: flex;
+    align-items: center;       
+    justify-content: center;   
+    height: 50px;
+    cursor: pointer;     
+}
+.searchbut{
+    transition: all 2s;
+}
+.historysaleuser{
+    background: rgb(123, 0, 180);
+}
+.vidgukuser{
+    background: rgb(190, 204, 0);
+}
+.pokupkabut {
+    background: rgb(32, 214, 47);
+}
+
+.korzinabut {
+    background: rgb(82, 82, 82);
+}
+
+.chatuserbut {
+    background: rgb(0, 140, 255);
+}
+.nazad{
+    background: rgb(82, 82, 82);    
+}
+
+
+.header2{
+    display: flex;
+    flex-direction: row-reverse;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+header h1, header h2 {
+    margin: 5px;
+}
+
+header h2 {
+    border-radius: 15px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    background: #252525;
+
+}
+
+
+
+.vybir {
+    display: none;
+    flex-direction: row;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.place {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(0deg,rgba(89, 89, 89, 1) 3%, rgba(0, 0, 0, 1) 69%);
+    padding: 1rem;
+    gap: 1rem;
+}
+
+
+.place1 {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.market {
+    display: flex;
+    flex-direction: row;
+}
+
+.marketpopular {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.popular {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: 10px;
+
+}
+
+.tovary {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: 10px;
+
+}
+.imgtovar{
+    width:220px;
+    height:180px;
+
+}
+.tovar{
+
+    font-weight:bold;
+    font-size: 18px;
+    border:1px solid white;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.4s;
+    margin:10px
+}
+.tovar:hover{
+    box-shadow:0px 0px 20px rgb(255, 255, 255);
+    transform: scale(1.1);
+}
+.usertovar{
+    display: flex;
+    flex-direction: row;
+}
+.tovar2{
+    display: flex;
+    flex-direction: column;
+    padding-left:5px;
+}
+.avatar{
+    width:36px;
+    height:35px;
+    border-radius: 45px;
+}
+.nickname{
+    font-size:15px;
+    margin :8px
+}
